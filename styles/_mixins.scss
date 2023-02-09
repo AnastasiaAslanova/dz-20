@@ -1,0 +1,12 @@
+@use "variables";
+
+@mixin bgImg($imgDesk, $imgTab, $imgMob) {
+  @extend %img;
+  background: #333 $imgDesk top center / 100% 100% no-repeat;
+  @media (max-width: 1200px) {
+    background: #333 $imgTab top center / 100% 100% no-repeat;
+  }
+  @media screen and (max-width: 767px) {
+    background: #333 $imgMob top center / 100% 100% no-repeat;
+  }
+}

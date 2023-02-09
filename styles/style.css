@@ -1,0 +1,360 @@
+main .container .image-4, main .container .image-3, main .container .image-2, main .container .image-1 {
+  height: 500px;
+  margin-bottom: 90px;
+}
+@media (max-width: 1200px) {
+  main .container .image-4, main .container .image-3, main .container .image-2, main .container .image-1 {
+    height: 380px;
+  }
+}
+@media screen and (max-width: 767px) {
+  main .container .image-4, main .container .image-3, main .container .image-2, main .container .image-1 {
+    margin-bottom: 70px;
+    min-height: 100vh;
+    height: 100%;
+  }
+}
+
+@font-face {
+  font-family: "RedHatDisplay600";
+  src: url("../fonts/RedHatDisplay-SemiBold.woff2") format("woff2"), url("../fonts/RedHatDisplay-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "RedHatDisplay500";
+  src: url("../fonts/RedHatDisplay-Medium.woff2") format("woff2"), url("../fonts/RedHatDisplay-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "RedHatDisplay400";
+  src: url("../fonts/RedHatDisplay-Regular.woff2") format("woff2"), url("../fonts/RedHatDisplay-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Lato600";
+  src: url("../fonts/Lato-Bold.woff2") format("woff2"), url("../fonts/Lato-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+*::before, *::after {
+  box-sizing: border-box;
+}
+
+ul, ol {
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+  cursor: url(../images/cursor.svg), auto;
+}
+
+svg:hover {
+  cursor: url(../images/cursor.svg), auto;
+}
+
+body {
+  font: 16px/26px "Lato", sans-serif;
+  background: #FFF;
+}
+
+.container {
+  padding: 0 35px;
+  max-width: 1240px;
+  margin: 0 auto;
+}
+@media screen and (max-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .container {
+    max-idth: 767px;
+    padding: 0 10px;
+  }
+}
+
+.header {
+  height: 100px;
+  padding: 33px 0;
+}
+.header .container p {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.5em;
+}
+@media (max-width: 1200px) {
+  .header {
+    height: 60px;
+    padding: 16px 0;
+  }
+}
+
+main .container h1 {
+  font-family: "RedHatDisplay600", sans-serif;
+  font-size: 48px;
+  line-height: 64px;
+  letter-spacing: 0.05em;
+  margin-bottom: 70px;
+}
+@media (max-width: 1200px) {
+  main .container h1 {
+    margin-bottom: 50px;
+  }
+}
+@media screen and (max-width: 767px) {
+  main .container h1 {
+    margin-bottom: 40px;
+  }
+}
+main .container .image-1 {
+  background: #333 url("./../images/image-1-desk.jpg") top center/100% 100% no-repeat;
+}
+@media (max-width: 1200px) {
+  main .container .image-1 {
+    background: #333 url("./../images/image-1-tab.jpg") top center/100% 100% no-repeat;
+  }
+}
+@media screen and (max-width: 767px) {
+  main .container .image-1 {
+    background: #333 url("./../images/image-1-mob.jpg") top center/100% 100% no-repeat;
+  }
+}
+main .container h2 {
+  font-family: "RedHatDisplay600", sans-serif;
+  font-size: 28px;
+  line-height: 166%;
+  letter-spacing: 0.1em;
+  margin-bottom: 50px;
+}
+@media (max-width: 767px) {
+  main .container h2 {
+    font-size: 26px;
+    margin-bottom: 40px;
+  }
+}
+main .container .info {
+  font-family: "Lato", sans-serif;
+  font-size: 19px;
+  line-height: 32px;
+  letter-spacing: 0.05em;
+  color: #565656;
+  margin-bottom: 90px;
+  width: 570px;
+  height: 255px;
+}
+@media (max-width: 1200px) {
+  main .container .info {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 70px;
+  }
+}
+@media (max-width: 767px) {
+  main .container .info {
+    font-size: 16px;
+  }
+}
+main .container .image-2 {
+  background: #333 url("./../images/image-2-desk.jpg") top center/100% 100% no-repeat;
+}
+@media (max-width: 1200px) {
+  main .container .image-2 {
+    background: #333 url("./../images/image-2-tab.jpg") top center/100% 100% no-repeat;
+  }
+}
+@media screen and (max-width: 767px) {
+  main .container .image-2 {
+    background: #333 url("./../images/image-2-mob.jpg") top center/100% 100% no-repeat;
+  }
+}
+main .container p {
+  font-family: "Lato", sans-serif;
+  font-size: 19px;
+  line-height: 32px;
+  letter-spacing: 0.05em;
+  color: #565656;
+  margin-bottom: 90px;
+}
+@media (max-width: 1200px) {
+  main .container p {
+    margin-bottom: 70px;
+  }
+}
+@media (max-width: 767px) {
+  main .container p {
+    font-size: 16px;
+  }
+}
+main .container .image-3 {
+  background: #333 url("./../images/image-3-desk.jpg") top center/100% 100% no-repeat;
+}
+@media (max-width: 1200px) {
+  main .container .image-3 {
+    background: #333 url("./../images/image-3-tab.jpg") top center/100% 100% no-repeat;
+  }
+}
+@media screen and (max-width: 767px) {
+  main .container .image-3 {
+    background: #333 url("./../images/image-3-mob.jpg") top center/100% 100% no-repeat;
+  }
+}
+main .container .image-4 {
+  background: #333 url("./../images/image-4-desk.jpg") top center/100% 100% no-repeat;
+}
+@media (max-width: 1200px) {
+  main .container .image-4 {
+    background: #333 url("./../images/image-4-tab.jpg") top center/100% 100% no-repeat;
+  }
+}
+@media screen and (max-width: 767px) {
+  main .container .image-4 {
+    background: #333 url("./../images/image-4-mob.jpg") top center/100% 100% no-repeat;
+  }
+}
+
+footer {
+  width: 100%;
+  height: 300px;
+  background: #F4F4F4;
+  padding-top: 70px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+footer .footer-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1170px;
+  margin-bottom: 25px;
+}
+footer .footer-info .footer-info__contacts .title {
+  font-family: "RedHatDisplay400", sans-serif;
+  font-size: 48px;
+  line-height: 64px;
+  letter-spacing: 0.05em;
+  margin-bottom: 30px;
+}
+footer .footer-info .footer-info__contacts .phone, footer .footer-info .footer-info__contacts .email {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  line-height: 166%;
+  letter-spacing: 0.1em;
+}
+footer .footer-info .footer-info__contacts .phone {
+  margin-bottom: 15px;
+}
+footer .footer-info .footer-info__socials {
+  height: 50px;
+  display: flex;
+  gap: 20px;
+}
+footer .footer-info .footer-info__socials .footer-info__card {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #565656;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  cursor: url(../images/cursor.svg), auto;
+}
+footer .footer-info .footer-info__socials .footer-info__card svg {
+  fill: #565656;
+}
+footer .footer-info .footer-info__socials .footer-info__card:hover {
+  background-color: #565656;
+}
+footer .footer-info .footer-info__socials .footer-info__card:hover svg {
+  fill: #FFF;
+}
+footer .footer-info .footer-info__socials a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+footer .footer-info .footer-info__socials a:hover {
+  background: #565656;
+}
+footer .footer-info .footer-info__socials a svg:hover {
+  fill: #FFF;
+}
+@media (max-width: 1200px) {
+  footer .footer-info {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    width: 700px;
+    margin-bottom: 50px;
+  }
+  footer .footer-info .footer-info__contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  footer .footer-info .footer-info__contacts .title {
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 767px) {
+  footer .footer-info {
+    width: 320px;
+  }
+  footer .footer-info .footer-info__contacts .title {
+    font-family: "RedHatDisplay400", sans-serif;
+    font-size: 32px;
+    line-height: 42px;
+    letter-spacing: 0.05em;
+  }
+  footer .footer-info .footer-info__contacts .phone, footer .footer-info .footer-info__contacts .email {
+    font-size: 18px;
+    line-height: 166%;
+    text-align: center;
+  }
+}
+footer .footer-copyright {
+  font-family: "Lato", sans-serif;
+  font-size: 12px;
+  line-height: 166%;
+  letter-spacing: 0.1em;
+}
+@media screen and (max-width: 767px) {
+  footer .footer-copyright {
+    width: 320px;
+  }
+}
+@media (max-width: 1200px) {
+  footer {
+    height: 410px;
+    padding: 50px 0;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
